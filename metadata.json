@@ -1,0 +1,5 @@
+{
+  "name": "Team Management Portal KKI",
+  "description": "A modern, responsive web application for managing company software licenses and hardware assets. Track assignments, purchase dates, expiry dates, and asset status in a clean, intuitive interface.",
+  "requestFramePermissions": []
+}

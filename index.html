@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Asset Management</title>
+    <style>
+      :root {
+        --SiteBlue: #2F5596;
+        --SiteBlueLight: #E6ECF5;
+        --TextBlack: #333333;
+        --BorderGrey: #DDDDDD;
+        --LightBgGrey: #F0F0F0;
+        --RowGrey: #EBEBEB;
+        --DisabledGrey: #918D8D;
+        --White: #FFFFFF;
+        --SuccessGreen: #008314;
+        --WarningOrange: #F98B36;
+        --DangerRed: #D32F2F;
+        --HighlightYellow: #FEF1B6;
+      }
+
+      body {
+        background-color: var(--LightBgGrey);
+        color: var(--TextBlack);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              siteblue: 'var(--SiteBlue)',
+              sitebluelight: 'var(--SiteBlueLight)',
+              textblack: 'var(--TextBlack)',
+              bordergrey: 'var(--BorderGrey)',
+              bggrey: 'var(--LightBgGrey)',
+              rowgrey: 'var(--RowGrey)',
+              disabledgrey: 'var(--DisabledGrey)',
+              successgreen: 'var(--SuccessGreen)',
+              warningorange: 'var(--WarningOrange)',
+              dangerred: 'var(--DangerRed)',
+              highlightyellow: 'var(--HighlightYellow)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-bggrey text-textblack">
+    <div id="root"></div>
+  </body>
+</html>
